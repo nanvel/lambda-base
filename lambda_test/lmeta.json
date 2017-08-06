@@ -1,0 +1,4 @@
+{
+  "timeout": 10,
+  "role": "arn:aws:iam::938886641317:role/lambda_basic_execution"
+}
