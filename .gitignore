@@ -1,5 +1,5 @@
-*.pyc
-.venv
-.git
 .idea
+*.pyc
+.git
+bin/*.zip
 local_settings.py

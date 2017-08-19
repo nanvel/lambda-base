@@ -12,29 +12,21 @@ pip install -r requirements.txt
 
 ## Commands
 
-`lmanage <entity> <command> *<arguments>`
+`python manage.py <entity> <command> <*arguments>`
 
-lmanage.py lambda status
-
-lmanage.py function list
-
-lmanage.py function status <lambda function>
-
-lmanage.py function deploy <lambda function>
-
-lmanage.py function update <lambda function>
-
-lmanage.py function delete <lambda function>
-
-lmanage.py function invoke <function name> <args>
-
-lmanage.py alias create <alias>
-
-lmanage.py alias delete <alias>
-
-lmanage.py alias status <alias>
-
-lmanage.py alias use <alias> <version>
+```text
+python manage.py lambda status
+python manage.py function list
+python manage.py function status <function name>
+python manage.py function deploy <function name>
+python manage.py function update <function name>
+python manage.py function delete <function name>
+python manage.py function invoke <function name> <args>
+python manage.py alias list <function name>
+python manage.py alias use <function name> <alias name> <function version>
+python manage.py alias delete <function name> <alias name>
+python manage.py alias status <function name> <alias name>
+```
 
 ## Role
 
